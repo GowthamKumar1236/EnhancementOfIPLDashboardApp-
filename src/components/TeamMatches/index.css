@@ -1,0 +1,109 @@
+/* Write your CSS here */
+
+.ipl-team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.team-matches-container {
+  max-width: 500px;
+  margin-top: 48px;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .team-matches-container {
+    max-width: 1100px;
+    margin-top: 96px;
+  }
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 23px;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .matches-list {
+    margin-top: 32px;
+  }
+}
+
+.load-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-stats-heading {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: left;
+  width: 1100px;
+  margin-top: 0px;
+}
+
+.alignment {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.back-button {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Roboto';
+  padding: 5px;
+  background-color: #b2b2af7c;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  width: 70px;
+  height: 40px;
+  border-radius: 7px;
+  margin-bottom: 50px;
+  border-style: none;
+}
+
+.csk {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.rcb {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.kkr {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.kxp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.rr {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.mi {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.sh {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.dc {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}

@@ -1,0 +1,82 @@
+/* Write your CSS here */
+
+.match-card-wrap {
+  list-style-type: none;
+  background-color: #0f172a;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px 14px 24px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 991px) {
+  .match-card-wrap {
+    margin-right: 8px;
+    width: 31%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .match-card-wrap {
+    margin-right: 7px;
+    width: 32%;
+  }
+}
+
+.match-card-logo {
+  height: 70px;
+  width: 70px;
+}
+@media screen and (min-width: 768px) {
+  .match-card-logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.match-card-name {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-name {
+    font-size: 23px;
+  }
+}
+
+.match-card-result {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .match-card-result {
+    font-size: 19px;
+  }
+}
+
+.match-status {
+  font-family: 'Bree Serif';
+  font-size: 19px;
+}
+@media screen and (min-width: 768px) {
+  .match-status {
+    font-size: 21px;
+  }
+}
+
+.Won {
+  color: #18ed66;
+}
+
+.Lost {
+  color: #e31a1a;
+}
